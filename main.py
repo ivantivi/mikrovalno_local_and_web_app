@@ -13,13 +13,15 @@ alti_list = []
 st.set_page_config(layout="wide")
 st.title("Vrijeme RITEH")
 st.header("Trenutačna očitanja")
+
 hide_st_style = """
-    <style>
-    #MainMenu {visability: hidden;}
-    footer {visability: hidden;}
-    header {visability: hidden;}
-    </style>
-"""
+            <style>
+            #MainMenu {visability: hidden;}
+            footer {visability: hidden;}
+            header {visability: hidden;}
+            </style>
+            """
+
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 fig_temp = go.Figure()
