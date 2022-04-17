@@ -16,9 +16,9 @@ st.header("Trenutačna očitanja")
 
 hide_st_style = """
             <style>
-            #MainMenu {visability: hidden;}
-            footer {visability: hidden;}
-            header {visability: hidden;}
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
             </style>
             """
 
