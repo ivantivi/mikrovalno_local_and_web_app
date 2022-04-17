@@ -1,2 +1,2 @@
-psycopg2==2.9.3
+psycopg2-binary
 plotly==5.7.0
