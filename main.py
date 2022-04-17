@@ -12,7 +12,7 @@ alti_list = []
 
 st.set_page_config(layout="wide")
 st.title("Vrijeme RITEH")
-st.header("Trenutačna očitanja")
+st.header("Trenutno stanje")
 
 hide_st_style = """
             <style>
